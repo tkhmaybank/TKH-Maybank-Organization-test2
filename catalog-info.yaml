@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "TKH-Maybank-Organization"
+  links:
+  - url: https://dashboard.example.com
+    title: Test Backstage Dashboard
+    icon: dashboard
+  annotations:
+    github.com/project-slug: tkhmaybank/TKH-Maybank-Organization-test2
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
